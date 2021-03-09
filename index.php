@@ -1,56 +1,8 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!--eternal Style sheets-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assest/css/style.css">
-    <title>Jodi Services</title>
-  </head>
-  <body>
-
-
-<!-- Nav Section -->
-
-<section class="main-menu">
-    <div class="container-flex">
-
-        <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="#"><img src="assest/images/footer-logo.png" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-    
-    </div>
-</section>
+<?php include 'header.php'; ?>
 
 <!-- Slider  Section -->
+
 
 <section class="slider">
 
@@ -89,7 +41,7 @@
     </a>
   </div>
 
-</section>
+</section> 
 
 <!-- Journey section Section -->
 
@@ -161,7 +113,7 @@
 
         <div class="bs-example">
           <div class="accordion" id="accordionExample">
-              <div class="card">
+              <div class="cardd">
                   <div class="card-header" id="headingOne">
                       <h2 class="mb-0">
                           <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">
@@ -169,14 +121,14 @@
                       </h2>
                   </div>
                   <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                      <div class="card-body">
+                      <div class="card-bodyy">
                           <p>Not everyone is technology-oriented, and we understand that. We provide tutorials, documentation, and additional resources if you would like to work on the product personally or make minor edits.
 
                             We also provide free-of-cost minor revisions since we acknowledge that you might want to try and see what looks best. If you would like a minor revision at any point, let us know and we will do that for free.</a></p>
                       </div>
                   </div>
               </div>
-              <div class="card">
+              <div class="cardd">
                   <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
                           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo">
@@ -184,14 +136,14 @@
                       </h2>
                   </div>
                   <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                      <div class="card-body">
+                      <div class="card-bodyy">
                           <p>
                             We believe in providing the utmost level of quality with our work. We are so confident in our abilities and services that we provide lifetime help if something goes wrong!
                            </p>
                       </div>
                   </div>
               </div>
-              <div class="card">
+              <div class="cardd">
                   <div class="card-header" id="headingThree">
                       <h2 class="mb-0">
                           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree">
@@ -199,7 +151,7 @@
                       </h2>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                      <div class="card-body">
+                      <div class="card-bodyy">
                           <p>If at any point we are not able to accomplish what we had mutually agreed upon, we will provide a full refund, without any hassle.
 
                             While we figure out the matters, we would only look at official documents and explicit communication.
@@ -269,29 +221,221 @@
   </div>
 </section>
 
+<!-- About  Section -->
+
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 text-center">
+        <h2>15 <sup>+</sup></h2>
+        <h3>Years of Experience</h3>
+        <img src="assest/images/Group-49.png" alt="">       
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 text-center">
+        <h2>5 <sup>+</sup></h2>
+        <h3>Countries Served</h3>
+        <img src="assest/images/Group-50.png" alt="">       
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 text-center">
+        <h2>30 <sup>+</sup></h2>
+        <h3>Experts</h3>
+        <img src="assest/images/Group-51.png" alt="">       
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 text-center">
+        <h2>3</h2>
+        <h3>Headquarters Worldwide</h3>
+        <img src="assest/images/Group-52.png" alt="">       
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Jodi Srvices  Section -->
+
+<section class="jodi-services">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+      <div class="jodi-box">
+        <h2><span>Digitize</span>with JoDi Services Today</h2>
+        <p>The ultimate solutions provider for digitizing.</p>
+        <button type="button" class="btn btn-primary btn-one">Work With Us</button>
+        <button type="button" class="btn btn-primary btn-two">About Us</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Client Section  Section -->
+
+<section class="client">
+  <div class="container">
+  <h5>LOVE FROM</h5>
+  <h2>Our <b>Clients.</b> </h2>
+<div class="container text-center my-3">
+  <div class="row mx-auto my-auto">
+      <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+          <div class="carousel-inner w-100" role="listbox">
+              <div class="carousel-item active">
+                  <div class="col-md-6">
+                      <div class="card card-body">
+                        <center><img src="https://cdn.statically.io/img/jodiservices.com/f=auto/wp-content/uploads/2020/12/1.jpg"></center>
+                          <p>JoDi Services surprised us with their level of professionalism, communication, proactiveness, and quite frankly their quality of work. They worked in a very methodical way and provided us with details every step of the way. Whether it was low-level designs, high-level designs, wireframes, a rough draft, or the final product, they checked in with us to keep us updated and accepted our feedback to make the product better. I would love to work with them again.</p>
+                         
+                          <h2>Kyle Shirley</h2>
+                          <h5>Thinkstitute</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-6">
+                      <div class="card card-body">
+                        <center><img src="https://cdn.statically.io/img/jodiservices.com/f=auto/wp-content/uploads/2020/12/1.jpg"></center>
+                        <p>JoDi Services surprised us with their level of professionalism, communication, proactiveness, and quite frankly their quality of work. They worked in a very methodical way and provided us with details every step of the way. Whether it was low-level designs, high-level designs, wireframes, a rough draft, or the final product, they checked in with us to keep us updated and accepted our feedback to make the product better. I would love to work with them again.</p>
+                       
+                        <h2>Kyle Shirley</h2>
+                        <h5>Thinkstitute</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-6">
+                      <div class="card card-body">
+                        <center><img src="https://cdn.statically.io/img/jodiservices.com/f=auto/wp-content/uploads/2020/12/1.jpg"></center>
+                        <p>JoDi Services surprised us with their level of professionalism, communication, proactiveness, and quite frankly their quality of work. They worked in a very methodical way and provided us with details every step of the way. Whether it was low-level designs, high-level designs, wireframes, a rough draft, or the final product, they checked in with us to keep us updated and accepted our feedback to make the product better. I would love to work with them again.</p>
+                       
+                        <h2>Kyle Shirley</h2>
+                        <h5>Thinkstitute</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-6">
+                      <div class="card card-body">
+                        <center><img src="https://cdn.statically.io/img/jodiservices.com/f=auto/wp-content/uploads/2020/12/1.jpg"></center>
+                        <p>JoDi Services surprised us with their level of professionalism, communication, proactiveness, and quite frankly their quality of work. They worked in a very methodical way and provided us with details every step of the way. Whether it was low-level designs, high-level designs, wireframes, a rough draft, or the final product, they checked in with us to keep us updated and accepted our feedback to make the product better. I would love to work with them again.</p>
+                       
+                        <h2>Kyle Shirley</h2>
+                        <h5>Thinkstitute</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-6">
+                      <div class="card card-body">
+                        <center><img src="https://cdn.statically.io/img/jodiservices.com/f=auto/wp-content/uploads/2020/12/1.jpg"></center>
+                        <p>JoDi Services surprised us with their level of professionalism, communication, proactiveness, and quite frankly their quality of work. They worked in a very methodical way and provided us with details every step of the way. Whether it was low-level designs, high-level designs, wireframes, a rough draft, or the final product, they checked in with us to keep us updated and accepted our feedback to make the product better. I would love to work with them again.</p>
+                       
+                        <h2>Kyle Shirley</h2>
+                        <h5>Thinkstitute</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-6">
+                      <div class="card card-body">
+                        <center><img src="https://cdn.statically.io/img/jodiservices.com/f=auto/wp-content/uploads/2020/12/1.jpg"></center>
+                        <p>JoDi Services surprised us with their level of professionalism, communication, proactiveness, and quite frankly their quality of work. They worked in a very methodical way and provided us with details every step of the way. Whether it was low-level designs, high-level designs, wireframes, a rough draft, or the final product, they checked in with us to keep us updated and accepted our feedback to make the product better. I would love to work with them again.</p>
+                       
+                        <h2>Kyle Shirley</h2>
+                        <h5>Thinkstitute</h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+  
+</div>
+</div>
+</section>
+
+<!-- Partner Section -->
+
+<section class="partner">
+  <div class="container">
+    <h2>Our <b>partners.</b></h2>
+    <p>Our trusted partners, enabling us to provide the services we do.</p>
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+        <img src="assest/images/xacrosoft-logo.png" alt="">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+        <img src="assest/images/Webp.net-resizeimage-29.png" alt="">
+      </div>
+    </div>
+    <hr>
+  </div>
+  
+</section>
+
+<!-- Blog Section -->
+
+<section class="blog">
+  <div class="container">
+    <h2>Our Thoughts and Opinions</h2>
+    <p>Get more information about our thoughts and opinions with what's <br> happening in the industry.</p>
+    <div class="row">
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+      <div class="blog-post">
+        <span>Case study</span><br>
+        <h2>Special benefit through Invest by your</h2>
+        <p>June 25, 2019</p>
+      </div>
+    </div>
+
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+      <div class="blog-post">
+        <span>Case study</span><br>
+        <h2>Special benefit through Invest by your</h2>
+        <p>June 25, 2019</p>
+      </div>
+    </div>
+
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+      <div class="blog-post">
+        <span>Case study</span><br>
+        <h2>Special benefit through Invest by your</h2>
+        <p>June 25, 2019</p>
+      </div>
+    </div>
+
+    </div>
+  </div>
+  
+</section>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
-    <script>
-      $(document).ready(function(){
-          // Add minus icon for collapse element which is open by default
-          $(".collapse.show").each(function(){
-            $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
-          });
-          
-          // Toggle plus minus icon on show hide of collapse element
-          $(".collapse").on('show.bs.collapse', function(){
-            $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-          }).on('hide.bs.collapse', function(){
-            $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-          });
-      });
-  </script>
-  
-  </body>
-</html>
+<!-- Subscriber Section -->
+
+<section class="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <h2>Interested?</h2>
+        <p>Sign Up For Our Newsletter</p>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Your Email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer-top">
+<div class="container">
+  <div class="row">
+    
+  </div>
+</div>
+</section>
+
+<?php include 'footer.php'; ?>
+

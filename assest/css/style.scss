@@ -270,3 +270,780 @@ $defaultcolor: #0faecb;
         padding-bottom: 30px;
     }
 }
+
+/* About Section css */
+
+.about {
+    padding: 90px 0px 90px 0px;
+    h2 {
+        color: #1C213E;
+        font-family: $headingfont;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    sup {
+        font-size: 22px;
+        color: #2575fc;
+        top: -23px;
+        font-weight: 900;
+    }
+    h3 {
+        color: #757781;
+        font-family: $headingfont;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.375em;
+        margin-bottom: 10px;
+    }
+}
+
+/* Jodi services css */
+
+.jodi-services {
+    background-image: url(http://jodiservices.com/wp-content/uploads/2020/11/pexels-fox-1595385-scaled.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px #0faecbad;
+    height: 580px;
+    .jodi-box {
+        padding-top: 16%;
+    }
+    button {
+        margin-top: 30px;
+    }
+    h2 {
+        color: #FFF;
+        margin: 0 0 15px 0;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 1.26em;
+    }
+    span {
+        color: #000;
+        font-weight: 900;
+    }
+    p {
+        color: #FFF;
+        font-size: 18px;
+        line-height: 1.5555555em;
+        margin: 0 0 20px 0;
+    }
+    .btn-one {
+        color: #1C213E;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: #FFF;
+        padding: 15px 30px 16px 30px;
+        border: none;
+        border-radius: unset;
+    }
+    .btn-one:hover {
+        color: #fff;
+        background-color: $defaultcolor;
+    }
+    .btn-two {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: #000;
+        padding: 15px 30px 16px 30px;
+        border: none;
+        border-radius: unset;
+    }
+    .btn-two:hover {
+        color: #000;
+        background-color: $defaultcolor;
+    }
+}
+
+/* client section csss */
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+.client {
+    padding-top: 30px;
+    h5 {
+        font-family: "Roboto",Sans-serif;
+        font-size: 1.4vw;
+        font-weight: 600;
+        color: $defaultcolor;
+    }
+    h2 {
+        font-size: 2.8vw;
+        font-weight: 700;
+        font-family: $headingfont;
+        color: #000;
+    }
+}
+
+
+.card {
+    border: 0px solid !important;
+    border-bottom: 3px solid transparent;
+    background-color: #fff;
+    box-shadow: 9px 11px 14px 0 #cfccca;
+    height: 500px;
+    padding: 10%;
+    margin-bottom: 50px;
+}
+.card:hover {
+    border-color: $defaultcolor;
+    border-bottom: 3px solid $defaultcolor !important;
+}
+
+.card-body {
+    img {
+        width: 40%;
+    }
+    p {
+        margin-bottom: 35px;
+        margin-top: 35px;
+       color: rgba(0,0,0,.5);
+       font-weight: 600;
+       font-family: "Roboto";
+       font-size: 16px;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+    }
+    h5 {
+        font-size: 13px;
+        color: rgba(0,0,0,.5);
+        font-weight: 400;
+        
+    }
+}
+
+/* partner section csss */
+
+.partner {
+    
+    h2 {
+        color: #1C213E;
+        margin: 0 0 13px 0;
+        font-family: $headingfont;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    p{
+        color: #757781;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    img {
+        filter: brightness(100%) contrast(0%) saturate(100%) blur(0px) hue-rotate(0deg);
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    img:hover {
+        transform: skew(-10deg);
+        filter: none;
+    }
+
+    
+}
+
+/* blog section csss */
+
+.blog {
+    padding: 70px 0px 70px 0px;
+    h2 {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.25em;
+        font-family: $headingfont;
+        color: #000;
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.5555555em;
+        margin: 0 0 64px 0;
+        text-align: center;
+    }
+}
+
+/* Subscribe section csss */
+
+.subscribe {
+    background-color: #f2d8d8;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    h2 {
+        color: #1C213E;
+        margin: 0 0 0 0;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 1.25em;
+        font-family: $headingfont;
+    }
+    p {
+        color: #B6BAD2;
+        font-size: 29px;
+        font-weight: 300;
+        line-height: 1.25em;
+        font-family: $textfont;
+    }
+    input {
+        padding: 24px 36px 24px 36px;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057; 
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da; 
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .input-group {
+            margin-top: 10px;
+        }
+        button {
+            background-color: $defaultcolor;
+            color: #fff;
+            border-color: $defaultcolor;
+            border-radius: none !important;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        button:hover {
+            background-color: #000;
+        }
+
+}
+
+.footer {
+    background-color: #000;
+    padding: 50px 0px 0px 0px;
+    h2 {
+        color: #fff;
+        margin: 0 0 30px 0;
+        font-family: "Merriweather",Sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Rubik",Sans-serif;
+    }
+    i {
+        font-size: 18px;
+        font-weight: 900;
+        color: #8c94b0;
+        width: 20px !important;
+        height: 40px !important;
+    }
+    i:hover {
+        color: #fff;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        font-family: "Rubik",Sans-serif;
+        font-weight: 400;
+    }
+    input {
+        background-color: #FFF;
+        border-radius: 0 0 0 0;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #06B0CC;
+        padding: 15px 0 15px 22px;
+    }
+    button {
+        background-color: $defaultcolor;
+        color: #fff;
+        border-radius: 0px 0px 0px 0px !important;
+        width: 70px;
+        i {
+            color: #fff;
+            padding-top: 10px;
+        }
+    }
+}
+.footer-bottom {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    a {
+        float: right;
+        margin-left: 30px;
+        color: #a5a5a5;
+    }
+    a:hover {
+        color: #fff;
+    }
+}
+
+/* About Page css */ 
+
+.business {
+    padding-top: 90px;
+    padding-bottom: 150px;
+    nav {
+        a {
+            color: #000;
+            font-family: $headingfont;
+        }
+    }
+    h2 {
+        font-family: $headingfont;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43px;
+        margin-top: 30px;
+    }
+    p {
+        font-family: $textfont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #565872;
+    }
+}
+
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0FAECB;
+    background-color: transparent;
+    border-color: transparent transparent #0FAECB;
+    border-bottom: 2px solid !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #000 !important;
+    font-size: 16px;
+}
+
+.about-img-dec {
+    padding: 30px 30px 25px 30px;
+    width: 70%;
+    margin-top: -30px;
+    position: absolute;
+    z-index: 7;
+    margin-left: 32px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 #8d8e8f;
+    h3 {
+        color: #172541;
+        font-family: $headingfont;
+        font-size: 20px;
+    }
+}
+
+.help-business {
+    background-image: url(../images/about/4.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px #00176379;
+    padding: 150px 0px 180px 0px;
+    text-align: center;
+    color: #fff;
+    h4 {
+        font-family: $textfont;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-family: $headingfont;
+        font-size: 36px;
+        font-weight: 700;
+    }
+}
+.excellence-quote {
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+.excellence-box {
+    padding: 80px 54px 80px 54px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.342);
+    background-color: #fff;
+
+    h2 {
+        color: #172541;
+        margin: 0 0 18px 0;
+        font-family: $headingfont;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    h4 {
+        font-family: $textfont;
+        color: $defaultcolor;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+    img {
+        height: 70%;
+        width: 70%;
+        float: right;
+    }
+    h3 {
+        color: #172541;
+        font-family: $headingfont;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    p {
+        color: #565872;
+        font-family: $textfont;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.quote-box {
+    background-color: #eef2f6;
+    padding: 80px 54px 80px 54px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.342);
+    h2 {
+        color: #172541;
+        margin: 0 0 18px 0;
+        font-family: $headingfont;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    p {
+        color: #565872;
+        font-family: $textfont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0 0 40px 0;
+    }
+    input {
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #e7e7e7;
+        background-color: #fff;
+        color: #000;
+        padding: 12px 15px 12px 22px;
+        border-radius: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    textarea {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 5px 15px 70px 22px;
+    }
+    button {
+        padding: 18px 18px 18px 18px;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.33em;
+        color: $defaultcolor;
+        background-color: #0000;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: $defaultcolor;
+        border-radius: 0 0 0 0;
+        width: 100%;
+    }
+    button:hover {
+        color: #fff;
+        background-color: $defaultcolor;
+    }
+}
+
+/* Portfolio Page css */ 
+
+.latest-work {
+    margin: 70px 0px 70px 0px;
+    h4 {
+        color: $defaultcolor;
+        font-family: $textfont;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 0 20px 0;
+    }
+    h2 {
+        color: #172541;
+        margin: 0 0 0 0;
+        font-family: "Merriweather",Sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    img {
+        width: 100%;
+    }
+    .disbox {
+        background-color: #fff;
+        box-shadow: -1.21px 6.894px 15px 0 rgba(0, 0, 0, 0.342);
+        margin-top: -50px;
+        padding: 10px 35px 10px 35px;
+        border-radius: 10px;
+        position: relative;
+        width: 80%;
+        margin-left: 30px;
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        button {
+            padding: 14px 20px 14px 20px;
+            color: $defaultcolor;
+            background-color: #fff;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #f7f9fb;
+            border-radius: 5px 5px 5px 5px;
+        }
+        button:hover {
+            color: #fff;
+            background-color: $defaultcolor;
+        }
+    }
+    .disbox p {
+        display: none;
+    }
+    .disbox button {
+        display: none;
+    }
+    .latest-box:hover p {
+        display: block;
+    }
+    .latest-box:hover button {
+        display: block;
+    }
+    .latest-box:hover h3 {
+        color: $defaultcolor;
+    }
+    .latest-box:hover span {
+        color: $defaultcolor;
+    }
+}
+
+
+
+/* Career Page css */
+
+.jobs {
+    background-color: #eef2f6;
+    padding: 60px 0 80px 0;
+    h4 {
+        font-family: $textfont;
+        color: $defaultcolor;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    h2 {
+        color: #1d3977;
+        margin: 15px 0 20px 0;
+        font-family: $headingfont;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+    }
+    .career-box {
+        background-color: #fff;
+        min-height: 316px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        box-shadow: 0 20px 20px 0 #807e7e33;
+        h6 {
+            display: inline-block;
+            color: #1d3977;
+            font-size: 12px;
+            box-shadow: 0 10px 30px 0 #91919175;
+            padding: 3px 6px;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+        h2 {
+            color: #1d3977;
+            font-size: 1.25rem;
+            font-family: $headingfont;
+            line-height: 30px;
+            font-weight: 700;
+            margin: 30px 0px 14px 0px;
+            text-transform: capitalize;
+            text-align: left;
+        }
+        span {
+            font-weight: 600;
+            color: $defaultcolor;
+        }
+        button {
+            background-color: initial;
+            border: 2px solid;
+            padding: 5px 10px 5px 10px;
+            color: $defaultcolor;
+            border-color: $defaultcolor;
+            font-family: $textfont;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: $defaultcolor;
+            color: #fff;
+        }
+    }
+    .career-box:hover {
+        transform: translateY(-5px);
+        transition: all 0.34s ease-in-out;
+    }
+}
+.follower-box {
+    background-color: #fff;
+    padding: 47px 40px 42px 40px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #d5e2f5;
+    border-radius: 20px 0 0 0;
+    h3 {
+        font-family: $headingfont;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        color: #172541;
+        margin-top: 10px;
+    }
+}
+
+/* Contact Page css */
+
+.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    h4 {
+        color: $defaultcolor;
+        font-family: $textfont;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0 0 20px 0;
+    }
+    h2 {
+        color: #1d3977;
+        margin: 0 0 21px 0;
+        font-family: $headingfont;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43px;
+    }
+    .contact-box {
+        padding: 65px 65px 65px 65px;
+        box-shadow: 0 10px 30px 0 #616c8594;
+    }
+    i {
+        font-size: 49px;
+    }
+    h3 {
+        color: #172541;
+        font-family: $headingfont;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    p {
+        color: #656565;
+        font-family: $textfont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .contact-box:hover i {
+        color: $defaultcolor;    
+    }
+}
+
+/* home blog css */ 
+
+.blog-post {
+    background-image: url(../images/about/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px #00176379;
+    span {
+        padding: 5px 20px 5px 20px;
+        color: #FFF;
+        background-color: rgba(255,255,255,0);
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: rgba(255,255,255,.4);
+        margin: 25px;
+        float: right;
+    }
+    span:hover {
+        background-color: #fff;
+        color: $defaultcolor;
+    }
+
+    h2 {
+        font-family: $headingfont;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 1.3333333em;
+        color: #fff;
+        padding-top: 245px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    p {
+        font-size: 15px;
+        font-weight: 700;
+        font-family: $textfont;
+        color: #fff;
+        text-align: left;
+        padding-left: 30px;
+    }
+}
+
+
